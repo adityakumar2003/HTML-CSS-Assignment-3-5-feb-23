@@ -1,0 +1,82 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+body{
+     width: 100vw;
+     height: 100vh;
+     background-image: url(ASSET/bg.png);
+     background-attachment: fixed;
+     background-size: cover;
+     
+}
+.line {
+     width: 1px;
+     height: 50px;
+     background-color: #fff;
+     margin-left: 63px;
+   }
+.move{
+     padding-right: 30%;
+     margin-top: 10px;
+}
+.logo{
+    height: 50px;
+    padding: 10px;
+    
+}
+.img-div{
+     padding-left: 5%;
+}
+.nav{
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 10px;
+     background-color: rgba(0, 0, 0, 0.785);
+}
+.list{
+     display: flex;
+  align-items: center;
+  gap: 63px;
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 64px;
+}
+.button{
+     background-color: #B90EC5;
+     color: aliceblue;
+     border-radius: 10px;
+     padding: 10px 30px;
+     font-weight: 600;
+     font-size: 19px;
+}
+.main-section{
+     text-align: center;
+     padding-top: 10%;
+}
+.bold{
+     font-weight: 600;
+     font-size: 80px;
+     color: #ffffff;
+}
+.low{
+     font-weight: 300;
+     font-size: 30px;
+     color: #ffffff;
+}
+.low-button{
+     background-color: #B90EC5;
+     color: aliceblue;
+     border-radius: 10px;
+     padding: 15px 20px;
+     font-weight: 600;
+     font-size: 25px;
+     margin-top: 40px;
+}
